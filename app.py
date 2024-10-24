@@ -3,12 +3,16 @@ import pandas as pd
 ### Imprimimos una serie
 # print(pd.Series([1,3,5,7,12]))
 ### Definimos un dicciionario
+""" 
 datos = {
     'nombres':["Ana","José","Mar","Ramón"],
     'edades':[12,16,65,23]
 }
+"""
 ### imprimimos un dataframe
-# print(pd.DataFrame(datos))
+"""
+print(pd.DataFrame(datos))
+"""
 
 ### Para leer un archivo csv usamos read_csv
 df = pd.read_csv('datos.csv')
